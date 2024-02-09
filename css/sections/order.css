@@ -1,0 +1,113 @@
+.order {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.order h3 {
+    font-size: 65px;
+    margin: auto;
+    font-family: var(---playfair-display);
+}
+
+.order h4 {
+    padding: 0px 900px 10px 20px;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 70px;
+    margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.order__food {
+    padding: 0px 90px 0px 110px;
+    width: 30%;
+    font-size: 22px;
+    font-weight: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var( --color-creamson);
+    border-bottom: 10px;
+    margin: auto;
+    margin-top: -50px;
+    display: flex;
+    flex: 1;
+}
+
+.order__drink {
+    padding: 0px 90px 0px 110px;
+    width: 30%;
+    font-size: 22px;
+    font-weight: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var( --color-creamson);
+    border-bottom: 10px;
+    margin: auto;
+    margin-top: -50px;
+    display: flex;
+    flex: 1;
+}
+
+.order__quantity {
+    padding: 0px 90px 0px 110px;
+    width: 30%;
+    font-size: 22px;
+    font-weight: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var( --color-creamson);
+    border-bottom: 10px;
+    margin: auto;
+    margin-top: -50px;
+    display: flex;
+    flex: 1;
+}
+
+.order__input {
+    width: 50%;
+    min-width: 480px;
+    margin-top: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+
+    padding: 14px 14px 14px 24px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 46px;
+}
+
+.order__input input {
+    padding: 0px 90px 0px 110px;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: var(--plus-jakarta-sans);
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.order__input input::placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+.order__input button {
+    padding: 20px;
+    min-width: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    text-align: center;
+    background: var(--black-400);
+    border: none;
+    border-radius: 46px;
+    outline: none;
+
+    cursor: pointer;
+}
